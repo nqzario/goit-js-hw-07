@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (userName) {
             nameOutput.textContent = userName;
         } else {
-            nameOutput = 'Anonymous';
+            nameOutput.textContent = 'Anonymous';
         }
     })
 });
