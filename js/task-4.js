@@ -8,7 +8,7 @@ const onFormSubmit = event => {
     password: formEl.elements.password.value.trim(),
     };
     
-    if (!formEl.elements.email.value || !formEl.elements.password.value) {
+    if (!formEl.elements.email.value.trim() || !formEl.elements.password.value.trim()) {
         alert('All form fields must be filled in');
         return;
     } else {
